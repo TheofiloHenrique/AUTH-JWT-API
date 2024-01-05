@@ -31,4 +31,15 @@ async function login(req,res){
     res.status(500).json({message:"Ocorreu um erro no servidor"})
   }
 }
-export { registerUser,login };
+
+async function userLogged(req,res){
+  const id = req.params.id;
+
+  const user = await User.findById(id, "-password");
+
+  if (!user) return res.status(404).json({ message: "Usuário não encontrado!" });
+ 
+  res.status(200).json({ user });
+}
+
+export { registerUser,login, userLogged};
