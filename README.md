@@ -215,7 +215,7 @@ Tentando acessar rota com token inválido 🐱‍👤🤫:
   <br></p>
 
 
-## Ferramentas usadas 🔨:
+## Ferramentas usadas : 
 
 -[Node](https://nodejs.org/en) 
 -[Express](https://expressjs.com/pt-br/)
