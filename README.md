@@ -13,8 +13,9 @@
 </p>
 
 <p align="center">
-  <a href="#Conexão-com-o-Banco-de-Dados">Conexão com o Banco de Dados:</a> •
-  <a href="#Como-funciona">Como Funciona:</a> 
+  <a href="#Conexão-com-o-Banco-de-Dados">Conexão com o Banco de Dados</a> 
+  •
+  <a href="#Como-funciona">Como Funciona</a> 
   •
   <a href="#Acessando-rotas-protegidas">Acessando rotas protegidas</a> 
   •
@@ -23,7 +24,7 @@
 </p>
 
 
-## Conexão com o Banco de Dados   
+## Conexão com o Banco de Dados:   
 
 É necessário incluir a URL do MongoDB Atlas para estabelecer a conexão com o banco de dados. A presença dessa URL é crucial para garantir a correta interação e acesso aos dados armazenados no MongoDB Atlas:
 ```bash
@@ -42,7 +43,7 @@ SECRET=
 
 ```
 
-## Como funciona
+## Como funciona:
 
 <h3>Criar usuário:</h3>
 
@@ -215,7 +216,7 @@ Tentando acessar rota com token inválido 🐱‍👤🤫:
   <br></p>
 
 
-## Ferramentas usadas : 
+## Ferramentas usadas: 
 
 -[Node](https://nodejs.org/en) 
 -[Express](https://expressjs.com/pt-br/)
