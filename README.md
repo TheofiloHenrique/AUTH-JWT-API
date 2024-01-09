@@ -67,7 +67,7 @@ async function userValidations(req,res,next){
 if (!req.body.name) return res.status(422).json({ message: "O nome é obrigatório!" });
 if (!req.body.email) return res.status(422).json({ message: "O email é obrigatório!" });
 if (!req.body.password) return res.status(422).json({ message: "A senha é obrigatória!" });
-if (req.body.password !== req.body.confirmPassword) return res.status(422).json({ message: "As senha precisam ser iguais!" });
+if (req.body.password !== req.body.confirmPassword) return res.status(422).json({ message: "As senhas precisam ser iguais!" });
 
   /*Validando se o user existe */
   
